@@ -67,11 +67,11 @@
           <h1 class="headline visually-hidden">Portfolio</h1>
           <!--Filters-->
           <ul class="btn-navigation list">
-            <li><button type="button" class="btn">All</button></li>
-            <li><button type="button" class="btn">Web Site</button></li>
-            <li><button type="button" class="btn">App</button></li>
-            <li><button type="button" class="btn">Design</button></li>
-            <li><button type="button" class="btn">Marketing</button></li>
+            <li><button type="button" class="btn-nav">All</button></li>
+            <li><button type="button" class="btn-nav">Web Site</button></li>
+            <li><button type="button" class="btn-nav">App</button></li>
+            <li><button type="button" class="btn-nav">Design</button></li>
+            <li><button type="button" class="btn-nav">Marketing</button></li>
           </ul>
           <ul class="card-set list">
             <!--Row1-->
@@ -373,6 +373,28 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="footer-email">
+          <p class="footer-text-social">Subscribe</p>
+          <div class="footer-email-btm">
+            <label class="footer-label">
+              <input
+                class="footer-input"
+                type="email"
+                name="email"
+                required
+                pattern="^(?=.*[a-z])(?=.*[A-Z])"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="footer-btn" type="submit">
+              Subscribe
+              <svg class="footer-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-frame"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </footer>
