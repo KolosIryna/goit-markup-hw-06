@@ -470,7 +470,7 @@ img {
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  outline: 2px solid transparent;
+  outline: 1px solid transparent;
   outline-offset: -2px;
 
   color: var(--title-text-color);
@@ -487,6 +487,7 @@ img {
 .modal-comment:hover,
 .modal-comment:focus {
   outline-color: var(--bgr-btn-color);
+  border: transparent;
 }
 
 .modal-form-agreement {
